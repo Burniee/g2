@@ -1,7 +1,7 @@
 import '@servicenow/sdk/global'
 import { BusinessRule, ClientScript } from '@servicenow/sdk/core'
 import { showStateUpdate } from '../server/script.js'
-const b = 6;
+const b = 6.1;
 const c = 16;
 
 //creates a client script that pops up 'Table loaded successfully!!' message everytime todo record is loaded
