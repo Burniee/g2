@@ -21,7 +21,7 @@ ClientScript({
         g_form.addInfoMessage("Table loaded successfully!!")
     }`,
 })
-
+const d = 4;
 //creates a business rule that pops up state change message whenever a todo record is updated
 BusinessRule({
     $id: Now.ID['br0'],
