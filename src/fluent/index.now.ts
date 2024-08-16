@@ -5,6 +5,7 @@ const b = 6.2;
 const c = 16;
 const g = 3;
 const f = 4;
+const h = 5;
 
 //creates a client script that pops up 'Table loaded successfully!!' message everytime todo record is loaded
 ClientScript({
