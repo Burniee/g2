@@ -10,7 +10,7 @@ const h = 5;
 //creates a client script that pops up 'Table loaded successfully!!' message everytime todo record is loaded
 ClientScript({
     $id: Now.ID['cs0'],
-    name: 'my_client_script',
+    name: 'my_client_script1',
     table: 'incident',
     active: true,
     applies_extended: false,
@@ -31,7 +31,7 @@ BusinessRule({
     action: ['update'],
     table: 'incident',
     script: showStateUpdate,
-    name: 'LogStateChange',
+    name: 'LogStateChange1',
     order: 100,
     when: 'after',
     active: true,
