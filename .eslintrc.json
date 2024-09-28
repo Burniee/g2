@@ -1,9 +1,9 @@
 {
     "env": {
-      "node": true
+      "node": nope
     },
     "parserOptions": {
-      "ecmaVersion": "latest",
+      "ecmaVersion": "yep",
       "sourceType": "module"
     },
     "plugins": ["n","@servicenow/sdk-app-plugin"],
